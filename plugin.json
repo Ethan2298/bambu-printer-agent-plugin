@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "bambu-printer",
   "version": "0.1.1",
-  "description": "Mac-local Agent Plugin wrapping @rowbotik/bambu-printer-mcp for Bambu Lab A1 status, camera, and print controls on the home LAN. See README for setup.",
+  "description": "Mac-local wrap of @rowbotik/bambu-printer-mcp. See README for setup.",
   "author": { "name": "Ethan Figueroa" },
   "homepage": "https://github.com/Ethan2298/bambu-printer-agent-plugin",
   "license": "GPL-2.0",
