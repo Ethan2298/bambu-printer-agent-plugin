@@ -1,0 +1,8 @@
+{
+  "name": "bambu-printer-agent-plugin",
+  "version": "0.1.1",
+  "private": true,
+  "description": "Launcher for @rowbotik/bambu-printer-mcp (node, not npx)",
+  "engines": { "node": ">=18" },
+  "dependencies": { "@rowbotik/bambu-printer-mcp": "1.1.1" }
+}

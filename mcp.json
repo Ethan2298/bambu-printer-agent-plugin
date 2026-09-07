@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "bambu-printer": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./scripts/run-mcp.js"],
+      "cwd": "${PLUGIN_ROOT}",
+      "env": {
+        "MCP_TRANSPORT": "stdio",
+        "BAMBU_MODEL": "a1",
+        "SLICER_TYPE": "bambustudio",
+        "SLICER_PATH": "/Applications/BambuStudio.app/Contents/MacOS/BambuStudio",
+        "BED_TYPE": "textured_plate",
+        "NOZZLE_DIAMETER": "0.4",
+        "TEMP_DIR": "/private/tmp/bambu-printer-mcp",
+        "BAMBU_CLI_FLATTEN": "true",
+        "PRINTER_HOST": "${PRINTER_HOST}",
+        "BAMBU_SERIAL": "${BAMBU_SERIAL}",
+        "BAMBU_TOKEN": "${BAMBU_TOKEN}"
+      }
+    }
+  }
+}

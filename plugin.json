@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "bambu-printer",
+  "version": "0.1.1",
+  "description": "Mac-local Agent Plugin wrapping @rowbotik/bambu-printer-mcp for Bambu Lab A1 status, camera, and print controls on the home LAN. See README for setup.",
+  "author": { "name": "Ethan Figueroa" },
+  "homepage": "https://github.com/Ethan2298/bambu-printer-agent-plugin",
+  "license": "GPL-2.0",
+  "keywords": ["bambu", "bambu-lab", "3d-printing", "mcp", "a1"],
+  "variables": {
+    "PRINTER_HOST": { "description": "LAN IP of the Bambu printer" },
+    "BAMBU_SERIAL": { "description": "Printer serial number" },
+    "BAMBU_TOKEN": { "description": "LAN access code from the printer (secret)" }
+  }
+}
